@@ -1,23 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { Button } from "./components/atoms/Button";
+import { Input } from "./components/atoms/Input";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      <header className="appHeader"></header>
+
+      <main className="appMain">
+        <div className="formBackground">
+          <Input type="text" placeholder="E-mail" />
+          <Input type="text" placeholder="Password" />
+          <Input type="text" placeholder="Repeat password" />
+          <Button
+            type="submit"
+            text="Send"
+            variant="red"
+            onClick={() => alert("Thanks for authorized")}
+          />
+        </div>
+      </main>
+      <footer className="appFooter"></footer>
     </div>
   );
 }
