@@ -1,10 +1,3 @@
-.formBackground {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  min-height: 300px;
-}
-
 .button {
   padding: 14px 24px;
   background-color: rgb(127, 127, 255);
@@ -29,8 +22,18 @@
   background-color: rgb(219, 114, 114);
 }
 
-input {
-  padding: 14px 10px;
-  font-size: 18px;
-  background-color: white;
+.button_count {
+  background-color: rgb(187, 220, 209);
+  color: black;
+  height: 50px;
+  width: 70px;
+  border-radius: 0;
+}
+
+.button_reset {
+  background-color: rgb(10, 217, 148);
+  color: black;
+  height: 50px;
+  width: 500px;
+  border-radius: 0;
 }

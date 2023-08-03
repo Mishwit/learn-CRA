@@ -1,23 +1,5 @@
-.button {
-  padding: 14px 24px;
-  background-color: rgb(127, 127, 255);
-  border-radius: 20px;
-  border: none;
-  color: white;
-  font-size: 18px;
-  transition: opacity 0.3s;
-  opacity: 1;
-  cursor: pointer;
-}
-
-.button:hover {
-  opacity: 0.8;
-}
-
-.button_green {
-  background-color: rgb(87, 142, 87);
-}
-
-.button_red {
-  background-color: rgb(219, 114, 114);
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }

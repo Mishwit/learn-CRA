@@ -10,6 +10,8 @@ export const Button = ({ onClick, text, type, variant }) => (
     className={classNames("button", {
       button_green: variant === "green",
       button_red: variant === "red",
+      button_count: variant === "count",
+      button_reset: variant === "reset",
     })}
   >
     {text}
