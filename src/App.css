@@ -1,14 +1,8 @@
-.appHeader {
-  display: flex;
-  height: 50px;
-  background-color: beige;
-}
-
 .appMain {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 530px;
+  height: 100vh;
   background-color: antiquewhite;
 }
 
@@ -20,26 +14,5 @@
   min-height: 300px;
   width: 600px;
   gap: 10px;
-  background-color: grey;
-}
-
-.countDisplay {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 50px;
-  width: 80px;
-  background-color: rgb(252, 197, 114);
-}
-
-.counterArea {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.appFooter {
-  display: flex;
-  height: 50px;
-  background-color: beige;
+  background-color: white;
 }

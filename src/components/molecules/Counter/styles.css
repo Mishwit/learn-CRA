@@ -1,0 +1,14 @@
+.countDisplay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 80px;
+  background-color: rgb(252, 197, 114);
+}
+
+.counterArea {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
