@@ -37,3 +37,12 @@
   width: 500px;
   border-radius: 0;
 }
+
+.button_disabled {
+  cursor: default;
+  opacity: 0.5;
+}
+
+.button_disabled:hover {
+  opacity: 0.5;
+}
